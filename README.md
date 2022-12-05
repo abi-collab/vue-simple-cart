@@ -10,3 +10,4 @@
 - When stock is empty button will be disabled
 - Decrease stock when add to cart
 - Item id in cart
+- if user is member, it will show free shipping
