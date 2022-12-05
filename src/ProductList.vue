@@ -51,7 +51,7 @@
 import {computed, ref} from "vue";
 
 const props = defineProps({
-      premium: {
+      member: {
         type: Boolean,
         required: true,
       }
@@ -89,7 +89,7 @@ const inStock = computed(() => {
 })
 
 const shipping = computed(() => {
-  if (props.premium) {
+  if (props.member) {
     return 'Free Shipping Worldwide'
   } else {
     return '$5 Shipping Cost Worldwide';

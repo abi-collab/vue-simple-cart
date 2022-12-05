@@ -8,7 +8,7 @@
       <h1 class="text-white">Cart({{ cartItems.length }})</h1>
     </section>
   </header>
-  <ProductList :premium="premium" @add-to-cart="addToCart"/>
+  <ProductList :member="isMember" @add-to-cart="addToCart"/>
 </template>
 
 <script setup>
@@ -16,7 +16,7 @@ import {ref} from "vue";
 import ProductList from "@/ProductList.vue";
 
 const img = '../src/assets/logo.svg'
-const premium = ref(false);
+const isMember = ref(false);
 const cartItems = ref([]);
 
 function addToCart(id) {
