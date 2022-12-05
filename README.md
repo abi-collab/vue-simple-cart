@@ -4,6 +4,11 @@
     <img src="https://raw.githubusercontent.com/alexanderivn/vue-simple-cart/main/src/assets/img/app.png" alt="app_screen"/>
 </div>
 
+# Built with
+- Tailwind CSS
+- Vite
+- Vue JS 3
+
 # Feature
 - Change product color on hover
 - Stock will change based on product variant selection
