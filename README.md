@@ -16,3 +16,6 @@
 - Decrease stock when add to cart
 - Item id in cart
 - if user is member, it will show free shipping
+
+# notes
+- Build folder is in "dist"
